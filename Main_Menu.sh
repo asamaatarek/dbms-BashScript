@@ -23,6 +23,7 @@ case $choice in
 				. ./connecting_database.sh;;
 
 "delete a databse")		echo -e "You are now deleting a databse\n"
+	                        echo -e "$(ls ./MyDataBases)\n"
 				. ./deleting_database.sh;;
 
 "clear screen except menu")     echo -e "Screen cleared\n"
